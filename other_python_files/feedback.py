@@ -4,11 +4,11 @@ from email.mime.multipart import MIMEMultipart
 
 def send_feedback(feedback_text,receiver_email):
     # Email configuration
-    sender_email = 'kmitgotnochill@gmail.com'#enter your email
+    sender_email = ''#enter your email
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587  # You might need to change this based on your SMTP server configuration
-    smtp_username = 'kmitgotnochill@gmail.com'#enter your email
-    smtp_password = 'zgprrtpfydxretwh'
+    smtp_username = ''#enter your email
+    smtp_password = ''
 
     # Create a MIMEText object with the feedback text
     msg = MIMEMultipart()
